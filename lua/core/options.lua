@@ -21,8 +21,6 @@ vim.opt.termguicolors = true        -- enabl 24-bit RGB color in the TUI
 vim.opt.signcolumn = "yes"
 vim.opt.showmode = false -- we are experienced, wo don't need the "-- INSERT --" mode hint
 
-vim.cmd[[colorscheme monokai]]
-
 -- Searching
 vim.opt.incsearch = true -- search as characters are entered
 vim.opt.hlsearch = true -- do not highlight matches

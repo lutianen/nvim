@@ -1,5 +1,4 @@
 -- define your colorscheme here
--- local colorscheme = 'gruvbox' -- 'monokai_pro'
 local colorscheme = 'monokai'
 
 local ok, _ = pcall(vim.cmd, "colorscheme " .. colorscheme)
