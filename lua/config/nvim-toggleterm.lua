@@ -10,9 +10,7 @@ toggleterm.setup({
     size = 12,
     open_mapping = [[<C-\>]], --  How to open a new terminal
     hide_numbers = true, -- hide the number column in toggleterm buffers
-    -- direction = 'float',
     direction = 'horizontal',
-    -- direction = 'vertical',
     close_on_exit = true, -- close the terminal window when the process exits
     shell = vim.o.shell, -- change the default shell
     shade_filetypes = {},
@@ -25,7 +23,6 @@ toggleterm.setup({
         winblend = 0,
     },
 })
-
 
 -- define key mappints
 --  t: terminal mode
