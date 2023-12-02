@@ -46,10 +46,7 @@ return require("packer").startup(function(use)
 
     -- Status line
     use({ "nvim-lualine/lualine.nvim",
-          requires = {
-              'nvim-tree/nvim-web-devicons', opt = true,
-              'archibate/lualine-time',
-          },
+          requires = { 'nvim-tree/nvim-web-devicons', opt = true, },
           config = [[require('config.nvim-lualine')]],
     })
 
