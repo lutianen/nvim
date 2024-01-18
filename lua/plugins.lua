@@ -41,8 +41,8 @@ return require("packer").startup(function(use)
     ---------------------------------------
 
     -- Colorschem
-    use("tanvirtin/monokai.nvim")
-    -- use { "ellisonleao/gruvbox.nvim" }
+    -- use("tanvirtin/monokai.nvim")
+    use { "ellisonleao/gruvbox.nvim" }
 
     -- Status line
     use({ "nvim-lualine/lualine.nvim",
