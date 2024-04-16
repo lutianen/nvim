@@ -27,27 +27,31 @@ Run :checkhealth for more info
 
 在程序开发时，通常一段功能相关的代码会写在一起，即之间没有空行，这时可以用段落移动命令来快速移动光标。
 
-`{`   # 移动到上一段的开头
-`}`   # 移动到下一段的开头
+> `{`   # 移动到上一段的开头
+>
+> `}`   # 移动到下一段的开头
 
 ### 括号切换
 
-`%`: 括号匹配以及切换
+> `%`: 括号匹配以及切换
 
 ### 单词快速匹配
 
-`#`: 匹配光标所在单词，向前查找（快速查看这个单词在其他什么位置使用过）
+> `#`: 匹配光标所在单词，向前查找（快速查看这个单词在其他什么位置使用过）
 
 ### 文件操作
 
-`:e`：edit，会打开内置的文件浏览器，浏览当下目录的文件
-`:n filename`：new，新建文件
-`:w filename`：write，保存文件
+> `:e`：edit，会打开内置的文件浏览器，浏览当下目录的文件
+>
+> `:n filename`：new，新建文件
+>
+> `:w filename`：write，保存文件
 
 ### 分屏
 
-`:sp[filename]`：split，水平分屏
-`:vsp[filename]`：vertical split，垂直分屏
+> `:sp[filename]`：split，水平分屏
+>
+> `:vsp[filename]`：vertical split，垂直分屏
 
 ---
 
@@ -105,7 +109,7 @@ touch ~/.config/nvim/init.lua
 >
 > *比如要导入上面的 `nvim-cmp.lua` 文件，可以用 `require('config.nvim-cmp')`*
 
-## Problems
+## Problem & Solution
 
 - Problem: `clipboard: No provider. Try “:checkhealth” or “:h clipboard”`
 
