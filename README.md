@@ -1,5 +1,7 @@
 # Neovim (Nvim)
 
+**Linux OS Neovim 配置套件**
+
 ## Install neovim
 
 ```bash
@@ -19,6 +21,13 @@ LuaJIT 2.1.1694285958
   fall-back for $VIM: "/usr/share/nvim"
 
 Run :checkhealth for more info
+```
+
+## 使用方式
+
+```bash
+$ cd ~/.config/
+$ git clone https://github.com/lutianen/nvim.git
 ```
 
 ## 常用命令
@@ -69,7 +78,7 @@ mkdir ~/.config/nvim/lua
 touch ~/.config/nvim/init.lua
 
 # 目录结构
-~.config/nvim/
+~/.config/nvim/
 ├── init.lua
 ├── lua
 │   ├── config
