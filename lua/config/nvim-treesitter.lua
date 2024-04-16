@@ -5,21 +5,21 @@ end
 
 configs.setup({
     -- A list of parser names, or "all" (the four listed parsers should always be installed)
-    ensure_installed = { 
-      'c', 
-      'cpp', 
-      'python', 
-      'cmake', 
-      'lua', 
-      'vim', 
-      'markdown', 
-      'yaml', 
-      'make', 
-      'json', 
-      'dockerfile', 
-      'gomod', 
+    ensure_installed = {
+      'c',
       'go',
-      'comment' 
+      'cpp',
+      'python',
+      'cmake',
+      'lua',
+      'vim',
+      'markdown',
+      'yaml',
+      'make',
+      'json',
+      'dockerfile',
+      'gomod',
+      'comment'
     },
 
     -- Install parsers synchronously (only applied to `ensure_installed`)
