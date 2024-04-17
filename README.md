@@ -28,6 +28,7 @@ Run :checkhealth for more info
 ```bash
 $ cd ~/.config/
 $ git clone https://github.com/lutianen/nvim.git
+$ cd nvim & nvim ./lua/plugins.lua
 ```
 
 ## 常用命令
